@@ -1,9 +1,14 @@
-import Image from "next/image";
+import { Description } from "./componets/Home/Description";
+import { Hero } from "./componets/Home/Hero";
+import { MainProducts } from "./componets/Home/MainProducts/MainProducts";
+
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className=" font-bold text-white ">HOLA MUNDO</h1>
+      <Description/>
+      <Hero/>
+      <MainProducts/>
     </main>
   );
 }
