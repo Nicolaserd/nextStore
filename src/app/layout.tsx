@@ -1,8 +1,9 @@
 // import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Header } from "./componets/shared/Header/Header";
-import { Footer } from "./componets/shared/Footer/Footer";
+
 import   "./cssGlobal.css"
+import { Header } from "app/components/shared/Header/Header";
+import { Footer } from "app/components/shared/Footer";
 // Agregar funetes
 
 const inter = Inter({ subsets: ["latin"] });
